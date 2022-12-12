@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ body{
+   background: black;
+   
+ }
+ .gradient-01 {
+   position: absolute;
+   width: 200px;
+   height: 438px;
+   top: 20%;
+   right: 70%;
+ 
+   background: #e3e7ae;
+   filter: blur(350px);
+ }
+ .gradient-02 {
+   position: absolute;
+   width: 200px;
+   height: 238px;
+   top: 10%;
+   right: 45%;
+ 
+   background: #e4a95c;
+   filter: blur(250px);
+ }
+ .gradient-03 {
+   position: absolute;
+   width: 200px;
+   height: 438px;
+   top: 44%;
+   right: 28%;
+ 
+   background: #261f8b;
+   filter: blur(133px);
+ }
+ .bg-ball {
+   position: absolute;
+   width: 200px;
+   height: 438px;
+   top: 44%;
+   right: 28%;
+ 
+   background: url('/public/img3.jpg');
+   filter: blur(133px);
+ }
+ .red-dot{
+   position: absolute;
+   width: 5%;
+   height: 10%;
+   right: 0%;
+   bottom: 0%;
+
+   background-color: red;
+   border-radius: 20%;
+   z-index: -10;
+
+ }
+
+ 
