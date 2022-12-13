@@ -6,7 +6,6 @@ const Hero = () => {
       <div className="gradient-01" />
       <div className="gradient-02" />
       <div className="gradient-03" />
-      <div className="bg-ball" />
       <div className="text-6xl font-bold md:w-[50vw]">
         Collect and sell your supper rate
         <span className="text-yellow-300">&nbsp;NFTs</span>

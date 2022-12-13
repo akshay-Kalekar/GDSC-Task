@@ -4,9 +4,9 @@ import NFT from "./NFTrecord";
 const main = () => {
   return (
     <div className="flex flex-col w-[80vw] gap-4 mx-auto md:flex-row mb-4">
-      {NFT.map((val, key) => {
-        console.log("val is", val);
-        return <BiddingCard value={val} key={key} />;
+      {NFT.map(({cost,key}) => {
+        console.log(key)
+        return <BiddingCard value={cost} index={key} />;
       })}
     </div>
   );

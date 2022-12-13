@@ -35,26 +35,17 @@
    background: #261f8b;
    filter: blur(133px);
  }
- .bg-ball {
-   position: absolute;
-   width: 200px;
-   height: 438px;
-   top: 44%;
-   right: 28%;
- 
-   background: url('/public/img3.jpg');
-   filter: blur(133px);
- }
+
  .red-dot{
    position: absolute;
-   width: 5%;
+   width: 40%;
+   height: 40%;
    height: 10%;
    right: 0%;
    bottom: 0%;
-
    background-color: red;
    border-radius: 20%;
-   z-index: -10;
+   z-index: -2;
 
  }
 
